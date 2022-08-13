@@ -1,6 +1,16 @@
 import filecmp
 import re
 
+''''
+This Python script is used to automatically extract phone numbers and emails from a text document.
+
+When you run this script:
+    1. The potential-contacts txt file is read
+    2. Phone numbers are extracted and stored in phone_numbers.txt
+    3. Emails are extracted and stored in emails.txt
+
+'''
+
 #Define gloal variables
 found_contacts = []
 text = ""
